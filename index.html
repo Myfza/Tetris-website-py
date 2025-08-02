@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tetris Game – Python GUI</title>
+    <meta name="description" content="Proyek game Tetris klasik dengan Python GUI dan Tkinter, dibuat oleh Muhammad Yusuf Aditiya. Unduh gratis atau lihat di GitHub.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container navbar-container">
+            <a href="#" class="logo">
+                VIZART 
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#steps">Guide</a></li>
+                <li><a href="#tech">Docs</a></li>
+                <li><a href="#social">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="glow-text">Tetris Game  Python GUI Version</h1>
+            <p class="subtitle">Made with Python & Tkinter, a nostalgic experience of classic gaming</p>
+            <div class="button-group">
+                <a href="https://github.com/Myfza/tetris-game-python" class="btn btn-github" target="_blank">🔗 View on GitHub</a>
+                <a href="https://github.com/Myfza/tetris-game-python/archive/refs/heads/main.zip" class="btn btn-download" target="_blank">⬇️ Download ZIP</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="features-section" id="features">
+        <div class="container">
+            <h2 class="section-title"> Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3 class="feature-title">Classic Tetris Mechanics</h3>
+                    <p>Implementing all the classic Tetris mechanics we know and love.</p>
+                </div>
+                <div class="feature-card">
+
+                    <h3 class="feature-title">Real-Time Brick Movement</h3>
+                    <p>Real-time block movement with responsive and accurate controls.</p>
+                </div>
+                <div class="feature-card">
+                    <h3 class="feature-title">Score Tracking</h3>
+                    <p>Track game scores with an efficient storage system.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"></div><h3 class="feature-title">Built with Python Modules</h3>
+                    <p>Built with Python, Tkinter, and additional modules like datetime, scrolledtext, filedialog, etc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steps Section -->
+    <section class="steps-section" id="steps">
+        <div class="container">
+            <h2 class="section-title"> How to use</h2>
+            <div class="steps-container">
+                <div class="step-item">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Download or Clone Repository</h3>
+                        <p class="step-description">Download the ZIP file from GitHub or clone the repository using Git. Make sure you have Python 3.x installed on your computer.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Extract and Open Folder</h3>
+                        <p class="step-description">Extract the downloaded ZIP file, then open the project folder in your terminal or command prompt.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Jalankan Aplikasi</h3>
+                        <p class="step-description">Run the main.py file with the command <code>python main.py</code> in the terminal. The game will immediately open and be ready to play.</p>
+                    </div>
+                </div>
+                <div class="step-item">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Start Playing </h3>
+                        <p class="step-description">Use the arrow keys to move the block, the up key to rotate, and the space bar to drop the block instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Description Section -->
+    <section class="tech-section" id="tech">
+        <div class="container">
+            <h2 class="section-title">Docs</h2>
+        <div class="tech-content">
+<p>This project implements the classic Tetris game using Python with a Tkinter graphical interface.</p>
+<ul>
+<li>The UI design uses <strong>Tkinter</strong> for an intuitive and responsive interface</li>
+<li>The information area uses <strong>ScrolledText</strong> to display game history</li>
+<li>Score saving and replay functionality for reviewing previous games</li>
+<li>File interaction and alerts use the following modules:
+<ul>
+<li><code>tkinter.filedialog</code> for opening and saving files</li>
+<li><code>tkinter.messagebox</code> for displaying notifications</li>
+<li><code>tkinter.simpledialog</code> for user input</li>
+</ul>
+</li>
+</ul>
+<p>This project is open-source and can be used for learning or further development.</p>
+</div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section class="social-section" id="social">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="social-icons">
+                <div class="social-item">
+                    <a href="https://linkedin.com/in/myfza" class="social-link tooltip" target="_blank" data-tooltip="linkedin.com/in/myfza">
+                        <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="social-name">LinkedIn</div>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://github.com/Myfza" class="social-link tooltip" target="_blank" data-tooltip="github.com/Myfza">
+                        <div class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="social-name">GitHub</div>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="mailto:vizart.id@gmail.com" class="social-link tooltip" data-tooltip="vizart.id@gmail.com">
+                        <div class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="social-name">Email</div>
+                    </a>
+                </div>
+                <div class="social-item">
+                    <a href="https://vizart.netlify.app" class="social-link tooltip" target="_blank" data-tooltip="vizart.netlify.app">
+                        <div class="social-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="social-name">Website</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p> Made by  by Muhammad Yusuf Aditiya <br />  Open-source untuk pembelajaran dan pengembangan pribadi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
