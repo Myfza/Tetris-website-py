@@ -46,14 +46,6 @@ A classic **Tetris** game project built with **Python** using **Tkinter GUI**. T
 - **Dialogs**: `filedialog`, `messagebox`, `simpledialog`
 - **Storage**: Save and load scores from local files
 
-## 📸 Preview
-
-Landing page:  
-👉 [Vizart Showcase](https://vizart.netlify.app)  
-GitHub: [@Myfza](https://github.com/Myfza)
-
-![preview](https://github.com/Myfza/tetris-game-python/raw/main/preview.png)
-
 ## 📎 Download
 
 - 🔗 [View on GitHub](https://github.com/Myfza/tetris-game-python)  
